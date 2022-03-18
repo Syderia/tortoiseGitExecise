@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript">
+			
+			
+			$(function(){
+				function add(){
+					var n1 = document.getElementById("number1").value;
+					var n2 = document.getElementById("number2").value;
+					var result = parseInt(n1)+parseInt(n2);
+					document.getElementById('result').innerHTML = result;
+				};
+
+			var button = document.getElementById('enter')
+			button.addEventListener("click", add);
+				
+			});
+			
+		</script>
+
+
+	</head>
+
+	<body>
+		<div id ='result' style='width:"240";height: 15px;'></div>
+		<div style ="padding-top: 6px;">
+			<input id = 'number1' type ='text' style='width:"240";height: 15px;'></input>
+			<input id = 'number2' type ='text' style='width:"240";height: 15px;'></input>
+		</div>
+		<div style ="padding-top: 6px;">
+			<button id ='enter' onclick="add">Add</button>
+		</div>
+		
+		
+	</body>
+
+</html>
