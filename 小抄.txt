@@ -1,0 +1,16 @@
+/*
+-------javascript--------------
+
+			function minus(){
+				var n1 = document.getElementById("number1").value;
+				var n2 = document.getElementById("number2").value;
+				var result = parseInt(n1)-parseInt(n2);
+				document.getElementById('result').innerHTML = result;
+			};
+
+			var button = document.getElementById('minus')
+			button.addEventListener("click", minus);
+
+--------minus button-----under id =buttonList-----
+			<button id ='minus' onclick="minus">Minus</button>
+*/
