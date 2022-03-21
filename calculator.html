@@ -27,7 +27,15 @@
 				var button = document.getElementById('minus')
 				button.addEventListener("click", minus);
 
+				function divide(){
+					var n1 = document.getElementById("number1").value;
+					var n2 = document.getElementById("number2").value;
+					var result = parseFloat(parseInt(n1)/parseInt(n2));
+					document.getElementById('result').innerHTML = result;
+				};
 
+				var button = document.getElementById('divide')
+				button.addEventListener("click", divide);
 
 				//add code here 
 				
@@ -47,6 +55,7 @@
 		<div style ="padding-top: 6px;">
 			<button id ='add' onclick="add">Add</button>
 			<button id ='minus' onclick="minus">Minus</button>
+			<button id ='divide' onclick="divide">Divide</button>
 		</div>
 		
 		
