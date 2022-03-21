@@ -12,7 +12,7 @@
 			button.addEventListener("click", minus);
 
 -------html	----------------
-	<button id ='enter' onclick="add">Add</button>
+	<button id ='minus' onclick="minus">Minus</button>
 
 */
 
