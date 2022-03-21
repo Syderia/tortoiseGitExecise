@@ -1,0 +1,73 @@
+/* 
+//step Local to Server - update my modification
+-------javascript	----------------		
+			function minus(){
+					var n1 = document.getElementById("number1").value;
+					var n2 = document.getElementById("number2").value;
+					var result = parseInt(n1)-parseInt(n2);
+					document.getElementById('result').innerHTML = result;
+				};
+
+			var button = document.getElementById('minus')
+			button.addEventListener("click", minus);
+
+-------html	----------------
+	<button id ='enter' onclick="add">Add</button>
+
+*/
+
+/* 
+//step Save our temporary modification (stash)
+-------javascript	----------------		
+			function times(){
+					var n1 = document.getElementById("number1").value;
+					var n2 = document.getElementById("number2").value;
+					var result = parseInt(n1)*parseInt(n2);
+					document.getElementById('result').innerHTML = result;
+				};
+
+			var button = document.getElementById('times')
+			button.addEventListener("click", times);
+
+-------html	----------------
+	<button id ='times' onclick="times">Times</button>
+
+*/
+
+
+/* 
+//step Save our temporary modification (stash)
+-------javascript	----------------		
+			function times(){
+					var n1 = document.getElementById("number1").value;
+					var n2 = document.getElementById("number2").value;
+					var result = parseInt(n1)*parseInt(n2);
+					document.getElementById('result').innerHTML = result;
+				};
+
+			var button = document.getElementById('times')
+			button.addEventListener("click", times);
+
+-------html	----------------
+	<button id ='times' onclick="times">Times</button>
+
+*/
+
+/* 
+//step I’ m regard! 
+-------javascript	----------------			
+			function divide(){
+					var n1 = document.getElementById("number1").value;
+					var n2 = document.getElementById("number2").value;
+					var result = parseFloat(parseInt(n1)/parseInt(n2));
+					document.getElementById('result').innerHTML = result;
+				};
+
+			var button = document.getElementById('divide')
+			button.addEventListener("click", divide);
+
+-------html	----------------
+			<button id ='divide' onclick="divide">Divide</button>
+
+*/
+
