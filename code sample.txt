@@ -35,7 +35,8 @@
 */
 
 /* 
-//step I’ m regard! 
+//Integrate our change -Merge & Encounter conflict
+
 -------javascript	----------------			
 			function divide(){
 					var n1 = document.getElementById("number1").value;
@@ -50,5 +51,22 @@
 -------html	----------------
 			<button id ='divide' onclick="divide">Divide</button>
 
+*/
+
+
+/* I’m regard!  - Reset commit 
+-------javascript	----------------
+
+				function power(){
+					var n1 = document.getElementById("number1").value;
+					var n2 = document.getElementById("number2").value;
+					var result =Mathi.pow(parseInt(n1),parseInt(n2));
+					document.getElementById('result').innerHTML = result;
+				};
+
+				var button = document.getElementById('power')
+				button.addEventListener("click", power);
+-------html	----------------
+				<button id ='power' onclick="power">power</button>
 */
 
